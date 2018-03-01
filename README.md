@@ -14,9 +14,7 @@ Summary: Provides some compatibility helpers for Flake8 plugins that intend to s
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flake8-polyfill-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flake8-polyfill-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flake8-polyfill-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flake8-polyfill-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flake8-polyfill-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flake8-polyfill-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/flake8-polyfill-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flake8-polyfill-feedstock)
 
 Current release info
 ====================
