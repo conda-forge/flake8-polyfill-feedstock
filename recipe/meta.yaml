@@ -1,6 +1,6 @@
 {% set name = "flake8-polyfill" %}
-{% set version = "1.0.1" %}
-{% set sha256 = "c77056b1e2cfce7b39d7634370062baf02438962a7d176ea717627b83b17f609" %}
+{% set version = "1.0.2" %}
+{% set sha256 = "e44b087597f6da52ec6393a709e7108b2905317d0c0b744cdca6208e670d8eda" %}
 
 package:
   name: {{ name|lower }}
@@ -12,6 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
+  noarch: python
   number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
